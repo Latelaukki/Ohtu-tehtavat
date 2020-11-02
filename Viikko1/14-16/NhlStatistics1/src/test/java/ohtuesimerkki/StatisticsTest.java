@@ -44,7 +44,7 @@ Reader readerStub = new Reader() {
     @Test
     public void palautaPelaajaK() {
         Player player = stats.search("Kurri");
-        assertEquals(new Player("Kurri", "EDM", 37, 53), player);
+        assertEquals(new Player("Kurri", "EDM", 37, 53), player + player.getPoints());
     }
     
     @Test
