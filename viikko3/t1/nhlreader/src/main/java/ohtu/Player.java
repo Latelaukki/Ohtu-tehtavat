@@ -30,28 +30,12 @@ public class Player {
         this.goals = goals;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getNationality(String nationality) {
+    public String getNationality() {
         return nationality;
-    }
-
-    public String getTeam(String team) {
-        return team;
-    }
-
-    public int getAssists(int assists) {
-        return assists;
-    }
-
-    public int getGoals(int goals) {
-        return goals;
     }
 
     @Override
     public String toString() {
-        return name + " " + nationality + " team: " + team + " assists: " + assists + " goals: " + goals;
+        return name + " team: " + team + " assists: " + assists + " goals: " + goals;
     }      
 }
