@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-18T13:43:36" hostname="LAPTOP-NTU7IKD5" time="0.827">
+  <properties/>
+  <testcase name="poistaKoristaEiLaskeHintaaTiliSiirtoon" classname="ohtu.verkkokauppa.KauppaTest" time="0.808"/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="pankinMetodiaTilisiirtoKutsutaanOikeallaAsiakkaallaTilinumerollaJaSummalla" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="metodiAloitaAsiointiNollaaEdellisenOstoksenTiedot" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="loppuneenTuotteenHintaaEiLasketaTiliSiirtoon" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
+  <testcase name="kahdenSamanOstoksenSummaLasketaanTiliSiirtoon" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="viiteNumeroVaihtuuMaksunVaihtuessa" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="kahdenEriOstoksenSummaLasketaanTiliSiirtoon" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
