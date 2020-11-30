@@ -8,9 +8,9 @@ laskin/Sovelluslogiikka.java
  laskin.Sovelluslogiikka
 laskin/Erotus.java
  laskin.Erotus
+laskin/Nollaa.java
+ laskin.Nollaa
 laskin/Summa.java
  laskin.Summa
 laskin/Tapahtumankuuntelija.java
  laskin.Tapahtumankuuntelija
-laskin/Nollaa.java
- laskin.Nollaa

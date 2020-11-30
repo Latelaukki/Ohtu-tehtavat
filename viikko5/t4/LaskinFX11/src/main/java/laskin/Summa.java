@@ -11,7 +11,8 @@ public class Summa extends Komento {
     private TextField syotekentta;
     private Button nollaa;
     private Button undo;
-    Sovelluslogiikka sovellus;
+    private Sovelluslogiikka sovellus;
+    private int vanhaArvo;
 
     public Summa(TextField tuloskentta, TextField syotekentta, Button nollaa, Button undo, Sovelluslogiikka sovellus) {
         this.tuloskentta = tuloskentta;
@@ -19,10 +20,12 @@ public class Summa extends Komento {
         this.nollaa = nollaa;
         this.undo = undo;
         this.sovellus = sovellus;
+        this.vanhaArvo = 0;
     }
 
     @Override
     public void suorita() {
+        this.vanhaArvo = Integer.parseInt(tuloskentta.getText());
         int arvo = 0;
         try {
             arvo = Integer.parseInt(syotekentta.getText());
@@ -42,6 +45,7 @@ public class Summa extends Komento {
 
     @Override
     public void peru() {
-
+        syotekentta.setText("");
+        tuloskentta.setText("" + vanhaArvo);  
     }
 }

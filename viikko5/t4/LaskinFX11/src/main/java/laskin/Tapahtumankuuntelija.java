@@ -30,6 +30,7 @@ public class Tapahtumankuuntelija implements EventHandler {
         } else {
             this.edellinen.peru();
             this.edellinen = null;
-        }                  
+        }              
+        undo.disableProperty().set(false);    
     }
 }
